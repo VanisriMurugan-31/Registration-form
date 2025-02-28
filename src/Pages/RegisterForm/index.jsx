@@ -63,7 +63,12 @@ export default function Register() {
       return;
     }
     dispatch(registerUser(formData));
-    setShowAlert(true);
+    setShowAlert(true); // Show alert
+
+  setTimeout(() => {
+    setShowAlert(false); // Hide alert after 3 seconds
+  }, 500);
+    
     setFormData({
       firstName: "",
       lastName: "",
