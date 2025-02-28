@@ -1,0 +1,11 @@
+.react-datepicker-wrapper {
+    width:100% !important
+}
+.fw-500{
+    font-weight: 500;
+}
+.required-label::after {
+    content: " *";
+    color: red;
+  }
+  
